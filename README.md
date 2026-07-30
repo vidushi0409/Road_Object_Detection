@@ -1,4 +1,4 @@
-# Foggy-YOLOv10
+# Foggy_YOLOv10
 
 ## Road Object Detection in Foggy Complex Scenes using Improved YOLOv10
 
