@@ -39,17 +39,18 @@ The model is trained to detect the following classes:
 ## Project Structure
 
 Foggy-YOLOv10/
-│
+├── results/
 ├── static/
 ├── templates/
 ├── test_data/
+├── uploads/
+└── README.md
+├── README.roboflow
 ├── app.py
 ├── best.pt
 ├── data.yaml
 ├── requirements.txt
-├── README.dataset
-├── README.roboflow
-└── README.md
+
 
 ## Model Training
 
