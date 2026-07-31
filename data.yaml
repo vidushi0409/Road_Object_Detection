@@ -1,7 +1,17 @@
 
-path: C:/Users/Python1/Desktop/foggy_object_detection
-train: C:/Users/Python1/Desktop/foggy_object_detection/train
-val: C:/Users/Python1/Desktop/foggy_object_detection/valid
+# This file is provided for reference.
+# The training dataset is not included in this repository.
 
-nc: 5  # Number of classes
-names: ['Bus', 'Car', 'MotorBike', 'bicycle', 'person']  # Replace with your class names
+path: .
+
+train: train/images
+val: valid/images
+
+nc: 5
+
+names:
+  - Bus
+  - Car
+  - MotorBike
+  - bicycle
+  - person
