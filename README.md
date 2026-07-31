@@ -4,8 +4,6 @@
 
 A deep learning-based road object detection system designed to accurately detect road objects in foggy and low-visibility environments using an improved YOLOv10 model. The project also includes a Flask web application that allows users to upload road images and visualize real-time object detection results.
 
----
-
 ## Features
 
 - Road object detection using an improved YOLOv10 model
@@ -16,8 +14,6 @@ A deep learning-based road object detection system designed to accurately detect
 - Export trained model to ONNX format
 - Real-time inference
 
----
-
 ## Object Classes
 
 The model is trained to detect the following classes:
@@ -27,8 +23,6 @@ The model is trained to detect the following classes:
 - MotorBike
 - Bicycle
 - Person
-
----
 
 ## Technologies Used
 
@@ -42,14 +36,10 @@ The model is trained to detect the following classes:
 - CSS
 - JavaScript
 
----
-
 ## Project Structure
 
-```
 Foggy-YOLOv10/
 │
-├── Model/
 ├── static/
 ├── templates/
 ├── test_data/
@@ -60,44 +50,6 @@ Foggy-YOLOv10/
 ├── README.dataset
 ├── README.roboflow
 └── README.md
-```
-
----
-
-## Installation
-
-### Clone the repository
-
-```bash
-git clone https://github.com/your-username/Foggy-YOLOv10.git
-cd Foggy-YOLOv10
-```
-
-### Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## Running the Application
-
-Start the Flask application:
-
-```bash
-python app.py
-```
-
-Open your browser and visit:
-
-```
-http://127.0.0.1:5000
-```
-
-Upload an image to perform road object detection.
-
----
 
 ## Model Training
 
@@ -110,8 +62,6 @@ Training configuration:
 - Batch Size: 16
 - Classes: 5
 
----
-
 ## Results
 
 The trained model can successfully detect:
@@ -123,8 +73,6 @@ The trained model can successfully detect:
 - Pedestrians
 
 even under foggy and low-visibility conditions.
-
----
 
 ## Dataset
 
