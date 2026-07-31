@@ -63,6 +63,18 @@ Training configuration:
 - Batch Size: 16
 - Classes: 5
 
+The repository includes a pretrained YOLOv10 model (`best.pt`) generated after training on a custom foggy road object detection dataset.
+
+The `.pt` file stores the learned weights and parameters of the trained neural network. It is loaded by the Flask application to perform object detection on new input images without requiring the model to be trained again.
+
+The model can detect the following object classes:
+
+- Bus
+- Car
+- MotorBike
+- Bicycle
+- Person
+
 ## Results
 
 The trained model can successfully detect:
